@@ -1,5 +1,7 @@
 # Arch router
 
+[![Packaging status](https://repology.org/badge/vertical-allrepos/arch-router.svg)](https://repology.org/project/arch-router/versions)
+
 Arch Linux 软路由工具箱!
 
 - [x] ainstall: arch linux 安装脚本,分区采用GPT分区表 + UEFI(bootloader) + LVM逻辑卷管理方式，更容易扩容。
@@ -7,6 +9,18 @@ Arch Linux 软路由工具箱!
 
 
 ## 使用方法
+
+<details open>
+  <summary>Arch Linux 通过 AUR 或[自建源](https://github.com/taotieren/aur-repo)安装 `arch-router`</summary>
+  
+  ```bash
+  # AUR
+  yay -Syu arch-router         
+  # 自建源
+  sudo pacman -Syu arch-router
+  ```
+
+</details>
 
 <details open>
   <summary>下载 ainstall 脚本安装Arch Linux</summary>
